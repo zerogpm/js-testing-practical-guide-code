@@ -9,4 +9,7 @@ node {
             bat 'dir'
         }
     }
+    stage('testing') {
+        sh 'node -v'
+    }
 }
