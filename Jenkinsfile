@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent agent
     tools {
         nodejs '18.12.1'
     }
@@ -7,6 +7,9 @@ pipeline {
         stage('node') {
             steps {
                 sh 'node -v'
+            }
+            steps {
+
             }
         }
     }
