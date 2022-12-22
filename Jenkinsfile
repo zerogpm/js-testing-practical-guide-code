@@ -8,9 +8,6 @@ pipeline {
             steps {
                 sh 'node -v'
             }
-            steps {
-                
-            }
         }
     }
 }
