@@ -10,6 +10,6 @@ node {
         }
     }
     stage('testing') {
-        sh 'node -v'
+        sh 'cd ~ ls -la'
     }
 }
