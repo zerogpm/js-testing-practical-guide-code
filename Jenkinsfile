@@ -1,7 +1,5 @@
 node {
 
-    tools {nodejs "nodejs"}
-
     stage('clone') {
         git branch: '02-setup', credentialsId: 'Github', url: 'https://github.com/zerogpm/js-testing-practical-guide-code.git'
     }
