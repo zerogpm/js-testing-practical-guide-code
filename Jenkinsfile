@@ -9,7 +9,7 @@ pipeline {
                 sh 'node -v'
             }
             steps {
-                sh 'ls -la'
+                
             }
         }
     }
