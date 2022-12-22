@@ -1,5 +1,5 @@
 pipeline {
-    agent agent
+    agent { node { label 'agent' } }
     tools {
         nodejs '18.12.1'
     }
