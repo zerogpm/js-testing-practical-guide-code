@@ -11,6 +11,7 @@ pipeline {
         }
         stage('listing') {
             steps {
+                sh 'cd code'
                 sh 'ls -la'
             }
         }
