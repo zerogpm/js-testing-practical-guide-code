@@ -8,6 +8,8 @@ pipeline {
             steps {
                 sh 'node -v'
             }
+        }
+        stage('listing') {
             steps {
                 sh 'ls -la'
             }
