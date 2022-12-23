@@ -9,9 +9,14 @@ pipeline {
                 sh 'node -v'
             }
         }
-        stage('listing') {
+        stage('npm version') {
             steps {
                 sh 'npm -v'
+            }
+        }
+        stage('listing') {
+            steps {
+                sh 'ls -la'
             }
         }
     }
