@@ -24,5 +24,10 @@ pipeline {
                 sh 'ls -la'
             }
         }
+        stage('testing') {
+            steps {
+                sh 'npm test'
+            }
+        }
     }
 }
