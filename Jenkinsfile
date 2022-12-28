@@ -14,11 +14,6 @@ pipeline {
                 sh 'npm -v'
             }
         }
-        stage('npm install') {
-            steps {
-                sh 'npm install --save-dev vitest'
-            }
-        }
         stage('listing') {
             steps {
                 sh 'ls -la'
